@@ -4,7 +4,7 @@ export default function Login() {
   const navigate = useNavigate();
 
   return (
-    <div className="app-wrapper">
+    <div className="mobile-wrapper">
       <h1>Signin to your PopX account</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
