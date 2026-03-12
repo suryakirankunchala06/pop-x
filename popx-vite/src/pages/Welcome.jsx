@@ -5,16 +5,31 @@ export default function Welcome() {
 
   return (
     <div className="app-wrapper">
-      <h1>Welcome to PopX</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-      <button className="primary-btn" onClick={() => navigate("/signup")}>
-        Create Account
-      </button>
+      <div className="welcome-text">
+        <h1>Welcome to PopX</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Quod unde vitae cumque fuga,
+        </p>
+      </div>
 
-      <button className="secondary-btn" onClick={() => navigate("/login")}>
-        Already Registered? Login
-      </button>
+      <div className="btn-group">
+        <button
+          className="primary-btn"
+          onClick={() => navigate("/signup")}
+        >
+          Create Account
+        </button>
+
+        <button
+          className="secondary-btn"
+          onClick={() => navigate("/login")}
+        >
+          Already Registered? Login
+        </button>
+      </div>
+
     </div>
   );
 }

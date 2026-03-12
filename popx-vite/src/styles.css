@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  background: #f4f4f4;
+  background: #faf8f8;
   display: flex;
   justify-content: center;
 }
@@ -17,6 +17,19 @@ body {
   min-height: 100vh;
   background: #ffffff;
   padding: 24px 20px;
+}
+
+/* Only Welcome page uses bottom alignment */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* Account page wrapper */
+.account-page {
+  display: flex;
+  justify-content: center;
 }
 
 /* Headings */
@@ -101,9 +114,8 @@ button {
   margin-top: 12px;
 }
 
-/* Welcome page buttons spacing */
+/* Welcome page buttons */
 .btn-group {
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 12px;

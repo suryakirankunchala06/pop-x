@@ -9,19 +9,19 @@ export default function Signup() {
 
       <form className="form">
         <label>Full Name*</label>
-        <input placeholder="Marry Doe" />
+        <input placeholder="Full Name" />
 
         <label>Phone number*</label>
-        <input placeholder="Marry Doe" />
+        <input placeholder="Phone number" />
 
         <label>Email address*</label>
-        <input placeholder="Marry Doe" />
+        <input placeholder="Email address" />
 
         <label>Password*</label>
-        <input placeholder="Marry Doe" />
+        <input placeholder="Password" />
 
         <label>Company name</label>
-        <input placeholder="Marry Doe" />
+        <input placeholder="Company name" />
 
         <div className="radio-group">
           <span>Are you an Agency?*</span>

@@ -1,31 +1,35 @@
 function Account() {
   return (
-    <div className="mobile-wrapper">
-      <div className="account-card">
-        <div className="account-title">Account Settings</div>
+    <div className="account-page">
+      <div className="mobile-wrapper">
+        <div className="account-card">
+          <div className="account-title">Account Settings</div>
 
-        <div className="profile-row">
-          <div className="avatar-wrapper">
-            <img
-              src="https://i.pravatar.cc/150?img=32"
-              alt="avatar"
-              className="avatar"
-            />
-            <div className="edit-badge">✎</div>
+          <div className="profile-row">
+            <div className="avatar-wrapper">
+              <img
+                src="https://i.pravatar.cc/150?img=32"
+                alt="avatar"
+                className="avatar"
+              />
+              <div className="edit-badge">✎</div>
+            </div>
+
+            <div className="profile-info">
+              <h4>Marry Doe</h4>
+              <p>Marry@gmail.com</p>
+            </div>
           </div>
 
-          <div className="profile-info">
-            <h4>Marry Doe</h4>
-            <p>Marry@gmail.com</p>
-          </div>
+          <p className="account-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            odit impedit magni vitae, nisi hic tempore quaerat expedita,
+            assumenda quod necessitatibus rem eos. Dolorum dolorem aperiam cum
+            consequuntur nobis eveniet!
+          </p>
+
+          <div className="divider"></div>
         </div>
-
-        <p className="account-desc">
-          Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
-          Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam Erat.
-        </p>
-
-        <div className="divider"></div>
       </div>
     </div>
   );
